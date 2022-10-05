@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    background: url(./Img/bg.gif);
+    background-size: cover;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: #fff;
+}
+.logo img{
+    width: 220px;
+}
+.form{
+    width: 450px;
+    margin: auto;
+    position: relative;
+    margin-top: 0px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+}
+.form input{
+    height: 45px;
+    border-radius: 20px;
+    padding: 10px 30px;
+   
+}
+.form button{
+    position: absolute;
+    top: 0;
+    right: 1px;
+    height: 45px;
+    border-radius: 20px;
+    padding: 10px 40px;
+    background-color: #000;
+    border: none;
+    box-shadow: none!important;
+}
+.form button:hover{
+    background: #ffe919;
+    color: #000;
+}
+.box-personaje{
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+.contenedor{
+    justify-content: center;
+    padding: 40px 0;
+}
+.box-personaje >div{
+    background: #fff;
+    color: #000;
+    height: 100%;
+}
+.box-personaje >div:first-child{
+    padding: 0px;
+}
+.box-personaje >div:last-child{
+    padding: 15px 20px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+.row-detalle{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed #222;
+
+}
+.sin-resultado{
+
+
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.sin-resultado img{
+    width: 200px;
+    margin-bottom: 20px;
+}
