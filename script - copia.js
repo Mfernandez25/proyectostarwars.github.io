@@ -73,10 +73,26 @@ function search_characters(character_name) {
   let results = []
   let longitud_cadena = character_name.length
 
+
+  /*for(let i = 0;i<characters.length;i++) {
+    if(characters[i].name.substring(0,longitud_cadena).toLowerCase() == character_name.toLowerCase()) {
+      results.push(characters[i])
+    }else{
+
+        console.log("no hay resultado")
+        
+
+    } 
+  }*/
    for(let i = 0;i<characters.length;i++) {
     if(characters[i].name.toLowerCase().includes(character_name.toLowerCase())) {
       results.push(characters[i])
-    }
+    }else{
+
+        console.log("no hay resultado")
+        
+
+    } 
   }
   return results
 }
