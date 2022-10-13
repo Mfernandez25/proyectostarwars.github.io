@@ -1,12 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+
 body{
-    background: url(./img/bg.gif);
+    background: url(./img/bg.jpg) ;
     background-size: cover;
-    font-family: 'Gemunu Libre', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top -10px center;
+    font-family: 'Jockey One', sans-serif;
     color: #fff;
 }
+
+
+h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #1d2849;
+}
+
+h3 {
+    text-shadow: 0 0 10px #1d2849;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.row-detalle div:nth-child(2) {
+    font-size: 13px;
+    color: #343537;
+}
 .logo img{
-    width: 220px;
+    width: 245px;
+    margin-top: 40px;
 }
 .form{
     width: 450px;
@@ -27,22 +58,22 @@ body{
     top: 0;
     right: 1px;
     height: 45px;
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
     padding: 10px 40px;
-    background-color: #000;
+    background-color: #080810;
     border: none;
     box-shadow: none!important;
 }
 .form button:hover,
 .form button:focus,
 .form button:active{
-    background: #ffe919;
-    color: #000;
+    background: #ffca00;
+    color: #080810;
 }
 .box-personaje{
     align-items: center;
-    padding: 0 20px;
-    margin-bottom: 15px;
+    padding: 0 28px;
+    margin-bottom: 25px;
 }
 .contenedor{
     justify-content: center;
@@ -61,24 +92,25 @@ body{
     display: inline-flex;
     align-items: center;
     flex-direction: column;
+    border-radius: 0 13px 0 0;
 }
-.row-detalle{
+.row-detalle {
     display: flex;
     justify-content: space-between;
     align-content: space-between;
     width: 100%;
-    line-height: 1.2;
+    line-height: 14px;
     margin-bottom: 5px;
-    border-bottom: 1px dashed #222;
-
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #cacaca;
+    font-size: 14px;
+    color: #474a5b;
 }
 .sin-resultado{
-
-
     padding-top: 0px;
     padding-bottom: 40px;
 }
 .sin-resultado img{
-    width: 200px;
-    margin-bottom: 20px;
+    width: 160px;
+    margin-bottom: 10px;
 }
